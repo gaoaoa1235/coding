@@ -1,0 +1,106 @@
+/* Global styles */
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #fce4ec;
+    color: #880e4f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-image: url('sailor moon.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 36px;
+    color: #c2185b;
+    margin-bottom: 10px;
+}
+
+/* Sub-title */
+.sub-title {
+    font-size: 18px;
+    color: #d81b60;
+    margin-bottom: 30px;
+}
+
+/* Data Diri */
+.data-diri h2 {
+    color: #d81b60;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.data-diri p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Materi */
+.materi h2 {
+    color: #c2185b;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.materi p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Video */
+.video h2 {
+    color: #c2185b;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Download section */
+.download h2 {
+    color: #c2185b;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.download ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.download li {
+    margin: 10px 0;
+}
+
+.download a {
+    font-size: 18px;
+    color: #d81b60;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download a:hover {
+    background-color: #f06292;
+    color: #fff;
+}
